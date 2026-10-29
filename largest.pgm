@@ -1,0 +1,16 @@
+﻿+0000000 // (00) constant 0
++0000000 // (01) a
++0000000 // (02) b
++9999999 // end initial data
+-9000000 // (00) toggle trace
++8000001 // (01) read a
++8000001 // (02) read b
+-5000105 // (03) if a < b goto 05
+-8010000 // (04) print a (if a >= b) and jump to stop
++9000000 // (05) stop / or branch target
+-8020000 // (06) print b (if b > a)
++9000000 // (07) stop
++9999999 // End of program
++0000010 // Input value 1
++0000025 // Input value 2
++9999999
